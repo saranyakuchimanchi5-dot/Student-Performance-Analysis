@@ -10,7 +10,7 @@ from sklearn.metrics import mean_absolute_error, r2_score
 
 
 # Load Dataset
-df = pd.read_csv("student_performance.csv")
+df = pd.read_csv("Student_performance.csv")
 
 
 # Display Data
