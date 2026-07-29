@@ -1,20 +1,35 @@
-# 🎓 Student Performance Analysis & Prediction
+# 📊 Student Performance Analysis & Prediction
+
+A Data Science project developed using **Python, Pandas, Matplotlib, Seaborn, and Scikit-learn** to analyze student performance, visualize insights, and predict total marks using Machine Learning.
+
+---
 
 ## 📌 Project Overview
-This project analyzes student academic performance using **Python, Data Analysis, Data Visualization, and Machine Learning**.
 
-The goal of this project is to understand factors affecting student performance, visualize insights, and predict total marks based on student details.
+This project analyzes student academic performance based on study hours, attendance, and subject marks. It performs Exploratory Data Analysis (EDA), visualizes key insights, classifies student performance, and builds a Linear Regression model to predict total marks.
 
-## 🚀 Features
+---
 
-✅ Data Loading and Exploration  
-✅ Data Cleaning and Preprocessing  
-✅ Total Marks and Average Marks Calculation  
-✅ Student Performance Classification  
-✅ Data Visualization using Charts  
-✅ Correlation Analysis  
-✅ Machine Learning Model for Prediction  
-✅ Model Evaluation using MAE and R² Score  
+## 📊 Project Output
+
+![Student Performance Analysis](images/output.png)
+
+---
+
+## ✨ Features
+
+- 📂 Load and explore the dataset
+- 🧹 Check for missing values
+- 📊 Calculate Total Marks & Average Marks
+- 🏆 Classify student performance
+- 📈 Display Top 5 Students
+- 📊 Average Subject Marks Visualization
+- 📉 Performance Distribution
+- 🔥 Correlation Heatmap
+- 🤖 Linear Regression Model
+- 🎯 Predict Total Marks for a New Student
+
+---
 
 ## 🛠️ Technologies Used
 
@@ -24,98 +39,99 @@ The goal of this project is to understand factors affecting student performance,
 - Matplotlib
 - Seaborn
 - Scikit-learn
-- Jupyter Notebook
-
-## 📂 Project Structure
----
-
-## 📊 Analysis Performed
-
-- Analyzed student marks in Math, Science, and English
-- Calculated total marks and average scores
-- Categorized students into:
-  - Excellent
-  - Good
-  - Average
-  - Poor
-- Identified top-performing students
-- Visualized subject-wise performance
-- Studied relationships between different features
 
 ---
 
-## 🤖 Machine Learning
+## 📂 Dataset
 
-A **Linear Regression Model** is used to predict student total marks based on:
+The dataset contains:
 
-- Study Hours
-- Attendance
+- Student Name
 - Math Marks
 - Science Marks
 - English Marks
+- Study Hours
+- Attendance
 
-### Model Evaluation Metrics:
+---
+
+## 📈 Machine Learning
+
+**Algorithm Used**
+
+- Linear Regression
+
+**Evaluation Metrics**
 
 - Mean Absolute Error (MAE)
 - R² Score
 
 ---
 
-## 📸 Project Output
+## 📁 Project Structure
 
-The project generates:
-
-- Subject-wise average marks visualization
-- Student performance distribution chart
-- Correlation heatmap
-- Prediction results
-
----
-
-## 📈 Results
-
-The machine learning model analyzes student data and predicts student total marks based on academic factors.
-
-The model performance is evaluated using:
-
-- MAE (Mean Absolute Error)
-- R² Score
+```
+Student-Performance-Analysis/
+│── README.md
+│── student_analysis.py
+│── Student_performance.csv
+│── requirements.txt
+└── images/
+    └── output.png
+```
 
 ---
 
-## 🎯 Learning Outcomes
+## ▶️ How to Run
 
-Through this project, I improved my skills in:
+1. Clone the repository
 
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Data Visualization
-- Feature Engineering
-- Machine Learning Basics
-- Python Programming
+```bash
+git clone https://github.com/yourusername/Student-Performance-Analysis.git
+```
+
+2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the project
+
+```bash
+python student_analysis.py
+```
+
+---
+
+## 📷 Visualizations
+
+- Average Subject Marks
+- Student Performance Distribution
+- Correlation Heatmap
+
+---
+
+## 🚀 Future Improvements
+
+- Add more student features
+- Try advanced Machine Learning algorithms
+- Build an interactive dashboard using Streamlit
+- Deploy as a web application
 
 ---
 
 ## 👩‍💻 Author
 
-**Lakshmi Saranya Kuchimanchi**
+**Kuchimanchi Lakshmi Saranya**
 
-B.Sc Data Science Student
+🎓 Data Science Student
 
----
+🔗 GitHub: https://github.com/saranyakuchimanchi5-dot
 
-## ⭐ Future Improvements
-
-- Add a web interface using Streamlit
-- Use advanced Machine Learning algorithms
-- Add more student-related features
-- Deploy the prediction model
-- Create an interactive dashboard
+🔗 LinkedIn: https://www.linkedin.com/in/lakshmi-saranya-kuchimanchi-6116b5341
 
 ---
 
-## 📌 Conclusion
-
-This project demonstrates the application of Data Science techniques to analyze student performance and build a basic prediction model using Machine Learning.
-
+⭐ If you found this project useful, consider giving it a **Star** on GitHub!
 ⭐ Feedback and suggestions are welcome!
